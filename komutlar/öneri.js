@@ -8,7 +8,7 @@ exports.run = function(client, message, args) {
 	var channelID = "506205830434127872";
 
 	if (!öneri){
-		return message.reply("Bir mesaj belirtin! Doğru kullanım: **..öneri <mesaj>** sadece site-fikirler-şiakyetler kanalında kullanılır!");
+		return message.reply("Bir mesaj belirtin! Doğru kullanım: **..öneri <mesaj>** sadece site-fikirler-şikayetler kanalında kullanılır!");
 	} else {
 
 		var embed = new Discord.RichEmbed()
